@@ -6,14 +6,14 @@ let cards = [];
 
 let card1 = { title: "Mario Project", url: "MarioProject/index.html" };
 let card2 = { title: "Memory Game", url: "MemoryGame/index.html" };
-let card3 = { title: "x", url: "x/index.html" };
+let card3 = { title: "Interactive HTML-CSS", url: "interactive HTML-CSS/index.html" };
 
 
 
 
 cards.push(card1);
 cards.push(card2);
-
+cards.push(card3);
 cards.map((item) => {
   cardsList.innerHTML += `
     <div class="card">
