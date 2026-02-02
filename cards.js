@@ -6,8 +6,13 @@
 
 let cardsList = document.querySelector(".cards");
 let cards = [];
+
 let card1 = { title: "Mario Project", url: "MarioProject/index.html" };
+let card2 = { title: "Memory Game", url: "MemoryGame/index.html" };
+
 cards.push(card1);
+cards.push(card2);
+
 cards.map((item) => {
   cardsList.innerHTML += `
     <div class="card">
@@ -22,6 +27,7 @@ cards.map((item) => {
     </div>
   `;
 });
+
 
 // look up what an object in JavaScript is, when you find the syntax for an object, include a title and a url link
 
