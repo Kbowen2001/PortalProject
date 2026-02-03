@@ -22,7 +22,7 @@ cards.map((item) => {
           <h2>${item.title}</h2>
         </div>
         <div class="card-back">
-          <a href="${item.url}">Project link</a>
+          <a href="${item.url}" class="cardlink">Project link</a>
         </div>
       </div>
     </div>
