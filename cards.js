@@ -6,7 +6,7 @@ let cards = [];
 
 let card1 = { title: "Mario Project", url: "MarioProject/index.html" };
 let card2 = { title: "Memory Game", url: "MemoryGame/index.html" };
-let card3 = { title: "InteractiveHTML-CSS", url: "Interactive/index.html" };
+let card3 = { title: "InteractiveHTML-CSS", url: "htmlcss/index.html" };
 
 
 
